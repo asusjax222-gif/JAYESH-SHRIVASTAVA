@@ -1,0 +1,131 @@
+<!--
+Section: Portfolio Website
+Project: One-Page Portfolio
+Page: index.html
+Author: BLACKBOX.AI Assistant (Sample Implementation)
+Description: A semantic HTML one-page portfolio with hero, about, projects, skills, and contact sections.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Web Developer</title>
+    <style>
+        /* Minimal inline CSS for basic functionality and testing; remove or externalize for production */
+        html { scroll-behavior: smooth; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: #333; color: #fff; padding: 1rem; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 1rem; }
+        nav a { color: #fff; text-decoration: none; }
+        main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        section { margin-bottom: 3rem; }
+        #hero { text-align: center; background: #f4f4f4; padding: 4rem 2rem; }
+        .profile-img { max-width: 200px; height: auto; border-radius: 50%; display: block; margin: 0 auto 1rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+        th { background: #f4f4f4; }
+        form { display: grid; gap: 1rem; max-width: 500px; }
+        input, textarea { padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; }
+        footer { background: #333; color: #fff; text-align: center; padding: 1rem; }
+        .skip-link { position: absolute; top: -40px; left: 6px; background: #000; color: #fff; padding: 8px; text-decoration: none; }
+        .skip-link:focus { top: 6px; }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate web developer creating innovative digital experiences with HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="./images/image/1000_F_1681659624_8wwvU3jJ2nIWVCcx4UoKYOwXQp12QQ0U.jpg" alt="Profile photo of a web developer smiling in a professional setting" class="profile-img">
+            <p>Hi, I'm Jayesh Shrivastava , a front-end developer with 6 months of experience in building responsive websites. I love turning ideas into interactive realities and am always eager to learn new technologies.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>E-Commerce Website</h3>
+                <p>A responsive online store built with HTML, CSS, and JavaScript, featuring a shopping cart and user authentication.</p>
+            </article>
+            <article>
+                <h3>Weather App</h3>
+                <p>A real-time weather application using the OpenWeather API, with dynamic UI updates and location-based forecasts.</p>
+            </article>
+            <article>
+                <h3>Task Management Tool</h3>
+                <p>A productivity app for managing tasks, integrated with local storage for data persistence and drag-and-drop functionality.</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Mid</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Mid</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Mid</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or inquiry" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
