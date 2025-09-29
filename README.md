@@ -57,8 +57,8 @@ portfolio-project/ │ ├── index.html # Main HTML file containing the enti
 
 ## Author
 
-[Your Name]
+Jayesh Shrivastava
 
 ---
 
-*This project is a foundational exercise in semantic HTML and accessibility best practices.*
+
