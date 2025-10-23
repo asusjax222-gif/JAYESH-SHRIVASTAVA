@@ -1,64 +1,23 @@
-# Web dev
-assigment work space!!
-# One-Page Portfolio Website
+<h1 align="center">Hi 👋, I'm Jayesh shrivastava</h1>
+<h3 align="center">A passionate Data Science student from India</h3>
 
-## Project Overview
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=atomic&label=Profile%20views&color=0e75b6&style=flat" alt="atomic" /> </p>
 
-This project is a simple, semantic, and accessible one-page portfolio website built using only HTML. It features distinct sections for About, Projects, Skills, and Contact, organized with semantic HTML5 tags to ensure clean structure and easy future styling with CSS.
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=atomic" alt="atomic" /></a> </p>
 
----
+- 🔭 I’m currently working on [portfolio without css](https://github.com/asusjax222-gif/JAYESH-SHRIVASTAVA)
 
-## Project Structure
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=atomic&show_icons=true&locale=en&layout=compact" alt="atomic" /></p>
 
-portfolio-project/ │ ├── index.html # Main HTML file containing the entire webpage ├── README.md # This file: project description and structure └── images/ └── profile.jpg # Profile image used in the About section---
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=atomic&show_icons=true&locale=en" alt="atomic" /></p>
 
-
-
-
-## Purpose
-
-- To demonstrate the use of semantic HTML tags such as `<header>`, `<nav>`, `<main>`, `<section>`, and `<footer>`.
-- To create a well-structured, accessible webpage with internal navigation links and a skip link for keyboard users.
-- To showcase a hero introduction, an About section with a profile image (with alt text), a Projects section listing sample projects, a Skills section using a table, and a Contact form with proper labels, placeholders, and required fields.
-- To provide a clean and organized HTML foundation that can be easily styled and enhanced with CSS and JavaScript in the future.
-
----
-
-## Features
-
-- **Semantic HTML5 structure** for better readability and SEO.
-- **Accessibility improvements** including skip link and descriptive alt text.
-- **Internal navigation** for smooth scrolling between sections.
-- **Projects listed** using `<ul>` and `<article>` elements.
-- **Skills displayed** in a well-structured table.
-- **Contact form** with labeled inputs, placeholders, and required validation.
-
----
-
-## How to Use
-
-1. Clone or download the project folder.
-2. Place your profile image inside the `images` folder and name it `profile.jpg`.
-3. Open `index.html` in any modern web browser to view the portfolio.
-4. Modify the content inside `index.html` to personalize your portfolio.
-
----
-
-## Future Enhancements
-
-- Add CSS styling for layout, colors, and responsiveness.
-- Implement JavaScript for form validation and interactive features.
-- Expand projects with links and images.
-- Add social media links and footer enhancements.
-
----
-
-## Author
-
-Jayesh Shrivastava
-
----
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=atomic&" alt="atomic" /></p>
 
 
